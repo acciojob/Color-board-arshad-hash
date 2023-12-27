@@ -5,7 +5,7 @@
             for(let i=0  ; i<800 ; i++)
             {
                 let pixel= document.createElement("div");
-                pixel.classList.add("box");
+                pixel.classList.add("square");
                 container.appendChild(pixel);
 
                 pixel.addEventListener("mouseover" , ()=>{
