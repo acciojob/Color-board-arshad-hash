@@ -14,7 +14,7 @@
             pixel.addEventListener("mouseout" , ()=>{
 
                 setTimeout(()=>{
-                    pixel.style.background="grey";
+                    pixel.style.background="rgb(29, 29, 29)";
                 },1000);
                 
             });
